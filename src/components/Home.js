@@ -18,7 +18,7 @@ const Home = () => {
             I am an aspiring full stack developer who loves learning and
             implementing new concepts. Currently in the process
             of gaining mastery over frontend technologies like Javascript,
-            React, Tailwind and Bootstrap.
+            React, Tailwind and Bootstrap, and more.
           </p>
           <div>
             <Link
