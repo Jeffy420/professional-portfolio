@@ -3,7 +3,7 @@ import git from '../assets/git.png'
 import html from '../assets/html.png'
 import css from '../assets/css.png'
 import js from '../assets/javascript.png'
-import reactImage from '../assets/react.png'
+import reactImage from '../assets/reactImage.png'
 import sql from '../assets/sql.png'
 import bootstrap from '../assets/bootstrap.png'
 import python from '../assets/python.png'
@@ -33,39 +33,39 @@ const TechStack = () => {
     },
     {
       id: 4,
+      src: reactImage,
+      title: 'React JS',
+      style: 'shadow-blue-500'
+    },
+    {
+      id: 5,
       src: tailwind,
       title: 'TailWind',
       style: 'shadow-sky-500'
     },
     {
-      id: 5,
+      id: 6,
       src: sql,
       title: 'MySQL',
       style: 'shadow-blue-500'
     },
     {
-      id: 6,
+      id: 7,
       src: git,
       title: 'Git',
       style: 'shadow-orange-500'
     },
     {
-      id: 7,
+      id: 8,
       src: python,
       title: 'Python',
       style: 'shadow-yellow-500'
     },
     {
-      id: 8,
+      id: 9,
       src: bootstrap,
       title: 'Bootstrap',
       style: 'shadow-purple-500'
-    },
-    {
-      id: 9,
-      src: github,
-      title: 'GitHub',
-      style: 'shadow-gray-500'
     },
   ]
 
@@ -95,8 +95,6 @@ const TechStack = () => {
         </div>
       ))
     }
-
-
         
     </div>
 
